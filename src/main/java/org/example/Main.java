@@ -12,7 +12,7 @@ public class Main {
         auto2.setSpeed(60);
         System.out.println("Auto2 fährt mit Geschwindigkeit: " + auto2.getSpeed());
         auto2.setSpeed(80);
-        System.out.println("Auto2 fährt mit Geschwindigkeit: " + auto2.getSpeed());
+        System.out.println("Auto2 fährt  nun mit Geschwindigkeit: " + auto2.getSpeed());
 
         Person tom = new Person("Tom", "Taylor", 99, "male");
         Person anna = new Person("Anna", "Schmidt", 27, "female");
