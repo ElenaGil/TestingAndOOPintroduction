@@ -156,7 +156,7 @@ class MainTest {
     @Test
     public void factorial_shouldReturn1_whenCAlledWith0() {
         int actual = Main.factorial(0);
-        Assertions.assertEquals(100, actual);
+        Assertions.assertEquals(1, actual);
     }
 
 }
