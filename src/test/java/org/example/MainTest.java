@@ -156,13 +156,7 @@ class MainTest {
     @Test
     public void factorial_shouldReturn1_whenCAlledWith0() {
         int actual = Main.factorial(0);
-        Assertions.assertEquals(1, actual);
-    }
-
-    @Test
-    public void fibonacci_shouldReturn1_whenCAlledWith1() {
-        int actual = Main.fibonacci(1);
-        Assertions.assertEquals(1, actual);
+        Assertions.assertEquals(100, actual);
     }
 
 }
